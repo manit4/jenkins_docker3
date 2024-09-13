@@ -1,4 +1,4 @@
 From openjdk:17
 EXPOSE 8082
-ADD target/devops-inte.jar devops-inte.jar
-ENTRYPOINT ["java", "-jar", "/devops-inte.jar"]
+ADD target/zhen-build.jar zhen-build.jar
+ENTRYPOINT ["java", "-jar", "/zhen-build.jar"]
