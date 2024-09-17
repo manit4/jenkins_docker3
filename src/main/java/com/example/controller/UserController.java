@@ -11,6 +11,6 @@ public class UserController {
 		
 		System.out.println("Inside message....");
 		
-		return "My First Message and I am updating";
+		return "My First Message and I am updating second time";
 	}
 }
